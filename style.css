@@ -1,0 +1,36 @@
+/* .conteiner{
+    width: 1140px;
+    margin: 0 auto;
+} */
+
+body{
+    background-color: #414141;
+}
+
+.header{
+    text-align: center;
+}
+
+.header > h1{
+    color: #414141;
+}
+
+.content, .sidebar {
+    height: 700px;
+    background-color: #b7d0d4;
+}
+
+.content{
+    float: left;
+    width: 72%;
+    padding: 20px;
+    border: 3px solid #000000;
+    text-align: center;
+}
+
+.sidebar{
+    float: left;
+    width: 18%;
+    padding: 20px;
+    border: 3px solid #000000;
+}
